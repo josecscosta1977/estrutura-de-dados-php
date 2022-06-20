@@ -1,6 +1,7 @@
 <?php 
 // DEQUE - deques são estruturas de dados que mesclam características de filha e pilha,
-// podemos inserir e remover tanto do início como no fim.
+// podemos inserir e remover tanto do início como no fim. Exemplo: filas com dois tipos
+// de atendimento, preferencial e normal.
 
 class Deque{
 
