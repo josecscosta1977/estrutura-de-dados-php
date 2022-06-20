@@ -34,7 +34,7 @@ class Deque{
     }
 }
 
-echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20");
+echo "ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20";
 echo "<br>";
 echo "DEQUES:";
 echo "<br><br>";
@@ -49,7 +49,7 @@ echo "<br>";
 $nome->adicionarDequeNormal("ewellyn34");
 $nome->mostrarDeque();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarDequePreferencial("maria72");
 $nome->mostrarDeque();
