@@ -34,14 +34,17 @@ class Deque{
     }
 }
 
-echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("DEQUES: <br><br>");
+echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20");
+echo "<br>";
+echo "DEQUES:";
+echo "<br><br>";
+
 
 $nome = new Deque();
 $nome->adicionarDequeNormal("virgílio14");
 $nome->mostrarDeque();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarDequeNormal("ewellyn34");
 $nome->mostrarDeque();
@@ -51,17 +54,17 @@ echo("<br>");
 $nome->adicionarDequePreferencial("maria72");
 $nome->mostrarDeque();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarDequePreferencial("carlos69");
 $nome->mostrarDeque();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarDequeNormal("soares32");
 $nome->mostrarDeque();
 
-echo("<br>");
+echo "<br>";
 
 $nome->retirarDeque();
 $nome->mostrarDeque();
