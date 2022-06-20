@@ -29,7 +29,7 @@ class Fila{
     }
 }
 echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("ESTUDO SOBRE FILAS: <br><br>");
+echo("FILAS: <br><br>");
 
 $nome = new Fila();
 $nome->adicionarFila("virgílio");
