@@ -28,26 +28,28 @@ class Pilha{
         array_pop($this->pilha);
     }
 }
-echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("PILHAS: <br><br>");
+echo "ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20";
+echo "<br>";
+echo "PILHAS:";
+echo "<br>";
 
 $nome = new Pilha();
 $nome->adicionarPilha("virgílio");
 $nome->mostrarPilha();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarPilha("ewellyn");
 $nome->mostrarPilha();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarPilha("carlos");
 $nome->mostrarPilha();
 
 $nome->retirarPilha();
 
-echo("<br>");
+echo "<br>";
 
 $nome->mostrarPilha();
 ?>
