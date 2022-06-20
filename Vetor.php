@@ -23,7 +23,7 @@ class Vetor{
     }
 }
 echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("ESTUDO SOBRE ARRAYS: <br><br>");
+echo("ARRAYS: <br><br>");
 
 $nome = new Vetor();
 $nome->adicionarVetor("virgílio");
