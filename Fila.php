@@ -28,26 +28,28 @@ class Fila{
         array_shift($this->fila);
     }
 }
-echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("FILAS: <br><br>");
+echo "ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20";
+echo "<br>";
+echo "FILAS: <br><br>";
+echo "<br>";
 
 $nome = new Fila();
 $nome->adicionarFila("virgílio");
 $nome->mostrarFila();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarFila("ewellyn");
 $nome->mostrarFila();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarFila("carlos");
 $nome->mostrarFila();
 
 $nome->retirarFila();
 
-echo("<br>");
+echo "<br>";
 
 $nome->mostrarFila();
 
