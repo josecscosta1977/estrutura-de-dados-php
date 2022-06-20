@@ -35,7 +35,7 @@ class Deque{
 }
 
 echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("ESTUDO SOBRE DEQUES: <br><br>");
+echo("DEQUES: <br><br>");
 
 $nome = new Deque();
 $nome->adicionarDequeNormal("virgílio14");
