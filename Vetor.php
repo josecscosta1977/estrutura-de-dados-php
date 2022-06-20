@@ -22,19 +22,21 @@ class Vetor{
         print_r($this->vetor);
     }
 }
-echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("ARRAYS: <br><br>");
+echo "ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20";
+echo "<br>";
+echo "ARRAYS:";
+echo "<br><br>";
 
 $nome = new Vetor();
 $nome->adicionarVetor("virgílio");
 $nome->mostrarVetor();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarVetor("ewellyn");
 $nome->mostrarVetor();
 
-echo("<br>");
+echo "<br>";
 
 $nome->adicionarVetor("carlos");
 $nome->mostrarVetor();
