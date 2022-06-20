@@ -29,7 +29,7 @@ class Pilha{
     }
 }
 echo("ESTUDO SOBRE ESTRUTURAS DE DADOS EM PHP - 7/10/20 <br>");
-echo("ESTUDO SOBRE PILHAS: <br><br>");
+echo("PILHAS: <br><br>");
 
 $nome = new Pilha();
 $nome->adicionarPilha("virgílio");
